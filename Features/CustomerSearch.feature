@@ -1,5 +1,6 @@
 Feature: Registered Customer Search
 
+@Smoke
 Scenario: User should be able to search the registered customer details 
 Given User lanches browser
 When User opens URL 

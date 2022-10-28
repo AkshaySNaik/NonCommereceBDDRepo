@@ -13,7 +13,7 @@ import io.cucumber.junit.CucumberOptions;
                 		     "./Features//OrdersSearch.feature"},
                             glue = "com.NonCommerce.StepDefination", 
                             dryRun = false, 
-			                monochrome = true)
+			                monochrome = true )
 public class Run {
 
 	/* Class Not Used */
