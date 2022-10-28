@@ -1,0 +1,12 @@
+16:44:32.437 [main] INFO  com.NonCommerce.StepDefination.BaseClass - Window Maximized
+16:44:32.722 [main] INFO  com.NonCommerce.StepDefination.BaseClass - Time Out Set For 10sec
+16:44:37.933 [main] INFO  com.NonCommerce.StepDefination.BaseClass - URL Opened
+16:44:43.929 [main] INFO  com.NonCommerce.StepDefination.BaseClass - User LoggedIn
+16:44:45.995 [main] INFO  com.NonCommerce.StepDefination.BaseClass - User LoggedOut
+16:44:48.353 [main] INFO  com.NonCommerce.StepDefination.BaseClass - Window Maximized
+16:44:48.368 [main] INFO  com.NonCommerce.StepDefination.BaseClass - Time Out Set For 10sec
+16:44:51.683 [main] INFO  com.NonCommerce.StepDefination.BaseClass - URL Opened
+16:44:53.014 [main] INFO  com.NonCommerce.StepDefination.BaseClass - User LoggedIn
+16:44:53.042 [main] INFO  com.NonCommerce.StepDefination.BaseClass - Error Message :Your store. Login
+16:44:56.315 [main] INFO  com.NonCommerce.StepDefination.BaseClass - Window Maximized
+16:44:56.322 [main] INFO  com.NonCommerce.StepDefination.BaseClass - Time Out Set For 10sec

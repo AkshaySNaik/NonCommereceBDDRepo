@@ -1,0 +1,12 @@
+12:17:02.952 [main] INFO  com.NonCommerce.StepDefination.BaseClass - Window Maximized
+12:17:03.069 [main] INFO  com.NonCommerce.StepDefination.BaseClass - Time Out Set For 10sec
+12:17:06.614 [main] INFO  com.NonCommerce.StepDefination.BaseClass - URL Opened
+12:17:14.859 [main] INFO  com.NonCommerce.StepDefination.BaseClass - User LoggedIn
+12:19:18.141 [main] INFO  com.NonCommerce.StepDefination.BaseClass - Window Maximized
+12:19:18.230 [main] INFO  com.NonCommerce.StepDefination.BaseClass - Time Out Set For 10sec
+12:19:29.806 [main] INFO  com.NonCommerce.StepDefination.BaseClass - URL Opened
+12:19:42.872 [main] INFO  com.NonCommerce.StepDefination.BaseClass - User LoggedIn
+12:20:01.382 [main] INFO  com.NonCommerce.StepDefination.BaseClass - User LoggedOut
+12:24:12.401 [main] INFO  com.NonCommerce.StepDefination.BaseClass - Window Maximized
+12:24:12.547 [main] INFO  com.NonCommerce.StepDefination.BaseClass - Time Out Set For 10sec
+12:24:17.588 [main] INFO  com.NonCommerce.StepDefination.BaseClass - URL Opened
