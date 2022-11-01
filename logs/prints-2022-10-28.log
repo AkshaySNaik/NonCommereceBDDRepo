@@ -1,12 +1,12 @@
-16:44:32.437 [main] INFO  com.NonCommerce.StepDefination.BaseClass - Window Maximized
-16:44:32.722 [main] INFO  com.NonCommerce.StepDefination.BaseClass - Time Out Set For 10sec
-16:44:37.933 [main] INFO  com.NonCommerce.StepDefination.BaseClass - URL Opened
-16:44:43.929 [main] INFO  com.NonCommerce.StepDefination.BaseClass - User LoggedIn
-16:44:45.995 [main] INFO  com.NonCommerce.StepDefination.BaseClass - User LoggedOut
-16:44:48.353 [main] INFO  com.NonCommerce.StepDefination.BaseClass - Window Maximized
-16:44:48.368 [main] INFO  com.NonCommerce.StepDefination.BaseClass - Time Out Set For 10sec
-16:44:51.683 [main] INFO  com.NonCommerce.StepDefination.BaseClass - URL Opened
-16:44:53.014 [main] INFO  com.NonCommerce.StepDefination.BaseClass - User LoggedIn
-16:44:53.042 [main] INFO  com.NonCommerce.StepDefination.BaseClass - Error Message :Your store. Login
-16:44:56.315 [main] INFO  com.NonCommerce.StepDefination.BaseClass - Window Maximized
-16:44:56.322 [main] INFO  com.NonCommerce.StepDefination.BaseClass - Time Out Set For 10sec
+20:13:34.529 [main] INFO  com.NonCommerce.StepDefination.BaseClass - URL Opened
+20:13:35.787 [main] INFO  com.NonCommerce.StepDefination.BaseClass - User LoggedIn
+20:13:35.803 [main] INFO  com.NonCommerce.StepDefination.BaseClass - Error Message :Your store. Login
+20:13:38.870 [main] INFO  com.NonCommerce.StepDefination.BaseClass - Window Maximized
+20:13:38.889 [main] INFO  com.NonCommerce.StepDefination.BaseClass - Time Out Set For 10sec
+20:13:43.515 [main] INFO  com.NonCommerce.StepDefination.BaseClass - URL Opened
+20:13:44.185 [main] INFO  com.NonCommerce.StepDefination.BaseClass - User LoggedIn
+20:13:44.203 [main] INFO  com.NonCommerce.StepDefination.BaseClass - Error Message :Your store. Login
+20:13:47.490 [main] INFO  com.NonCommerce.StepDefination.BaseClass - Window Maximized
+20:13:47.507 [main] INFO  com.NonCommerce.StepDefination.BaseClass - Time Out Set For 10sec
+20:13:52.635 [main] INFO  com.NonCommerce.StepDefination.BaseClass - URL Opened
+20:13:57.226 [main] INFO  com.NonCommerce.StepDefination.BaseClass - User LoggedIn
