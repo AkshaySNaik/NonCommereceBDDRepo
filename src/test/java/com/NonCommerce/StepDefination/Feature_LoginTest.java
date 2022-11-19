@@ -50,13 +50,13 @@ public class Feature_LoginTest extends BaseClass {
 			break;
 		}
 
-		logg = LogManager.getLogger(BaseClass.class.getName());
+		log = LogManager.getLogger(BaseClass.class.getName());
 
 		driver.manage().window().maximize();
-		logg.info("Window Maximized");
+		log.info("Window Maximized");
 
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		logg.info("Time Out Set For 10sec");
+		log.info("Time Out Set For 10sec");
 
 	}
 
@@ -87,7 +87,7 @@ public class Feature_LoginTest extends BaseClass {
 	public void user_opens_url() {
 
 		driver.get(URL);
-		logg.info("URL Opened");
+		log.info("URL Opened");
 
 	}
 
@@ -105,7 +105,7 @@ public class Feature_LoginTest extends BaseClass {
 	public void clicks_on_login_button() {
 
 		loginpg.clickOnLogin();
-		logg.info("User LoggedIn");
+		log.info("User logedIn");
 
 	}
 
@@ -122,7 +122,7 @@ public class Feature_LoginTest extends BaseClass {
 	public void logout_and_close_the_browser() {
 
 		loginpg.clickOnLogout();
-		logg.info("User LoggedOut");
+		log.info("User logedOut");
 	}
 
 /////////////////////// Scenario 2 For Invalid Credentials /////////////////////// ///////////////////////
@@ -132,7 +132,7 @@ public class Feature_LoginTest extends BaseClass {
 
 		String actloginerrormsg = loginpg.getPageTitle();
 
-		logg.info("Error Message :" + actloginerrormsg);
+		log.info("Error Message :" + actloginerrormsg);
 
 		String expectloginerrormsg = "Your store. Login";
 

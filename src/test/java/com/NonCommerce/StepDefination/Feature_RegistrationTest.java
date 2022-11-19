@@ -23,7 +23,7 @@ public class Feature_RegistrationTest extends BaseClass {
 	public void click_on_new_user_and_create_a_new_user() {
 
 		regpg.clickOnAddNew();
-		regpg.enterNewEmail(getRandomStringValue() + "@gmail.com");
+		regpg.enterNewEmail(getRandomStringValue(5) + "@gmail.com");
 		regpg.enterNewPassWord("A123a");
 		regpg.enterFirstName("Akshay");
 		regpg.enterLastName("Naik");

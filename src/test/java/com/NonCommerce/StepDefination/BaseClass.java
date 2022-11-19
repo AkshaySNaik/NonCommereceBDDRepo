@@ -1,5 +1,10 @@
 package com.NonCommerce.StepDefination;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+import java.util.Random;
+
 import org.apache.commons.lang.RandomStringUtils;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -13,7 +18,7 @@ import com.NonCommerce.Utilities.ReadConfig;
 public class BaseClass {
 
 	public static WebDriver driver;
-	public static Logger logg;
+	public static Logger log;
 	public NonCommerceLoginPage loginpg;
 	public NonCommerceRegistrationPage regpg;
 	public NonCommerceCustomerSearch custserch;
@@ -24,9 +29,37 @@ public class BaseClass {
 	String browser = readcon.getBrowser();
 	String URL = readcon.getUrl();
 
-	public String getRandomStringValue() {
+	// Get Random String Values From RandomStringUtils
+	public String getRandomStringValue(int number) {
 
-		return RandomStringUtils.randomAlphabetic(5);
+		return RandomStringUtils.randomAlphabetic(number);
 	}
+
+	// Get Random Integer Values From Random Class
+	public int getRandomIntValue(int number) {
+
+		Random random = new Random();
+		return (random.nextInt(number));
+
+	}
+
+	// JDBC Connection For DataBase Testing
+	public void JDBCTest(String connection, String sqlstatment) {
+
+		try {
+
+			Connection conection = DriverManager.getConnection(connection);
+
+			Statement statement = conection.createStatement();
+			statement.execute(sqlstatment);
+
+			conection.close();
+
+		} catch (Throwable e) {
+			e.printStackTrace();
+		}
+
+	}
+
 
 }
